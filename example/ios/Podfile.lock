@@ -1,0 +1,76 @@
+PODS:
+  - BigInt (5.0.0)
+  - Connect-Swift (0.12.0):
+    - SwiftProtobuf (~> 1.25.2)
+  - Flutter (1.0.0)
+  - GenericJSON (2.0.2)
+  - GzipSwift (5.1.1)
+  - halo_im (0.0.1):
+    - Flutter
+    - MessagePacker
+    - secp256k1.swift
+    - XMTP (= 0.14.11)
+  - integration_test (0.0.1):
+    - Flutter
+  - LibXMTP (0.5.8-beta3)
+  - Logging (1.0.0)
+  - MessagePacker (0.4.7)
+  - secp256k1.swift (0.1.4)
+  - SwiftProtobuf (1.25.2)
+  - web3.swift (1.6.0):
+    - BigInt (~> 5.0.0)
+    - GenericJSON (~> 2.0)
+    - Logging (~> 1.0.0)
+    - secp256k1.swift (~> 0.1)
+  - XMTP (0.14.11):
+    - Connect-Swift (= 0.12.0)
+    - GzipSwift
+    - LibXMTP (= 0.5.8-beta3)
+    - web3.swift
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - halo_im (from `.symlinks/plugins/halo_im/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BigInt
+    - Connect-Swift
+    - GenericJSON
+    - GzipSwift
+    - LibXMTP
+    - Logging
+    - MessagePacker
+    - secp256k1.swift
+    - SwiftProtobuf
+    - web3.swift
+    - XMTP
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  halo_im:
+    :path: ".symlinks/plugins/halo_im/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  Connect-Swift: 1de2ef4a548c59ecaeb9120812dfe0d6e07a0d47
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  GenericJSON: 79a840eeb77030962e8cf02a62d36bd413b67626
+  GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
+  halo_im: 24a27b10ded216303cb8f4bad0414a6953eaf957
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  LibXMTP: c7cad19e8ac4721254df8f5b3c60677362b5f0d3
+  Logging: 9ef4ecb546ad3169398d5a723bc9bea1c46bef26
+  MessagePacker: ab2fe250e86ea7aedd1a9ee47a37083edd41fd02
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  SwiftProtobuf: 407a385e97fd206c4fbe880cc84123989167e0d1
+  web3.swift: 2263d1e12e121b2c42ffb63a5a7beb1acaf33959
+  XMTP: cb6058bf6e097b453c502b8dd00f7ddaf68a9c20
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
